@@ -89,12 +89,12 @@ public class LogicaQuiz {
         // Vetor de String que Armazena informacoes do trabalho
 
         public void iniciarQuiz(Scanner entradaUsuario) {
-
-
+            System.out.println("\n-------Inicio do Quiz-------\n");
             // Loop através de todas as perguntas e respostas
             for (int i = 0; i < perguntasQuiz.length; i++) {
                 fazerPergunta(perguntasQuiz[i], respostasCorretas[i]);
             }
+            System.out.println("\n-------Fim do Quiz--------\n");
             // Impressão da pontuação final do usuário
             System.out.println("Você acertou " + pontuacaoUsuario + " de " + perguntasQuiz.length + " perguntas.\n");
             System.out.println("-------Gabarito-------\n");
