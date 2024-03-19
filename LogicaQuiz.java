@@ -86,7 +86,6 @@ public class LogicaQuiz {
                         "(d) erro\n"};
         // Vetor de char para armazenar as respostas corretas para as perguntas do quiz
         char[] respostasCorretas = {'b', 'c', 'c','c', 'c', 'a', 'c', 'a', 'a', 'a', 'a', 'd', 'd', 'b', 'a'};
-        // Vetor de String que Armazena informacoes do trabalho
 
         public void iniciarQuiz(Scanner entradaUsuario) {
             System.out.println("\n-------Inicio do Quiz-------\n");
