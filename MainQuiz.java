@@ -8,7 +8,7 @@ public class MainQuiz {
     System.out.println("Professor: Breno Pimenta");
     System.out.println("Tema das Perguntas: Conhecimentos básicos sobre Java!");
     System.out.println();
-    // Criação de um objeto Quiz e início do quiz
+    // Criação de um objeto LogicaQuiz e início do quiz
         LogicaQuiz quiz = new LogicaQuiz();
         quiz.iniciarQuiz(entradaUsuario);
 
