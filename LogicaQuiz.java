@@ -23,7 +23,7 @@ public class LogicaQuiz {
                         "(a) class NovaClasse inherits ClasseExistente\n" +
                         "(b) class NovaClasse implements ClasseExistente\n" +
                         "(c) class NovaClasse extends ClasseExistente\n" +
-                        "(d) class NovaClasse uses ClasseExistente",
+                        "(d) class NovaClasse uses ClasseExistente\n",
                 "4: Qual é a interface em Java que é implementada por todas as classes?\n" +
                         "(a) java.lang.Object\n" +
                         "(b) java.lang.Class\n" +
@@ -83,7 +83,7 @@ public class LogicaQuiz {
                         "(a) try\n" +
                         "(b) catch\n" +
                         "(c) throw\n" +
-                        "(d) erro"};
+                        "(d) erro\n"};
         // Vetor de char para armazenar as respostas corretas para as perguntas do quiz
         char[] respostasCorretas = {'b', 'c', 'c','c', 'c', 'a', 'c', 'a', 'a', 'a', 'a', 'd', 'd', 'b', 'a'};
         // Vetor de String que Armazena informacoes do trabalho
@@ -117,8 +117,10 @@ public class LogicaQuiz {
         public void fazerPergunta(String pergunta, char respostaCorreta) {
             // Impressão da pergunta
             System.out.println(pergunta);
+            System.out.print("Digite sua alternativa: ");
             // Leitura da resposta do usuário
             char respostaUsuario = entradaUsuario.next().charAt(0);
+            System.out.println();
             // Verificação se a resposta do usuário é uma letra minúscula
             while (respostaUsuario != 'a' && respostaUsuario != 'b' && respostaUsuario != 'c' && respostaUsuario != 'd') {
                 System.out.println("Opção inválida, digite como pede, letra minúscula para opção!");
@@ -129,6 +131,9 @@ public class LogicaQuiz {
                 // Se a resposta estiver correta, incrementa a pontuação do usuário
                 pontuacaoUsuario++;
             }
+            else{
+                System.out.println("Alternativa errada a correta e: "+respostaCorreta+"\n");
+
+            }
         }
     }
-
