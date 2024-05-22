@@ -19,41 +19,42 @@ public class LogicaQuiz {
                         "(b) =!\n" +
                         "(c) //\n" +
                         "(d) #\n",
-                "3: Qual é a sintaxe correta para herança em Java?\n" +
-                        "(a) class NovaClasse inherits ClasseExistente\n" +
-                        "(b) class NovaClasse implements ClasseExistente\n" +
-                        "(c) class NovaClasse extends ClasseExistente\n" +
-                        "(d) class NovaClasse uses ClasseExistente\n",
-                "4: Qual é a interface em Java que é implementada por todas as classes?\n" +
-                        "(a) java.lang.Object\n" +
-                        "(b) java.lang.Class\n" +
-                        "(c) java.lang.Cloneable\n" +
-                        "(d) java.lang.All\n",
+                "3: Qual é a saída do código System.out.println(2+3*4)?\n" +
+                        "(a) 18\n" +
+                        "(b) 20\n" +
+                        "(c) 14\n" +
+                        "(d) 11\n",
+                "4: Como declara um array de inteiros em java?\n" +
+                        "(a) Int array[];\n" +
+                        "(b) int array;\n" +
+                        "(c) int[] array;\n" +
+                        "(d) array int;\n",
                 "5: Qual palavra-chave é usada para importar pacotes em Java?\n" +
                         "(a) package\n" +
                         "(b) include\n" +
                         "(c) import\n" +
                         "(d) use\n",
-                "6: Qual é a palavra-chave usada para declarar uma exceção que um método pode lançar?\n" +
-                        "(a) throws\n" +
-                        "(b) throw\n" +
-                        "(c) exception\n" +
-                        "(d) catch\n" ,
-                "7: Qual é a palavra-chave usada para definir uma constante em Java?\n" +
-                        "(a) const\n" +
-                        "(b) define\n" +
-                        "(c) final\n" +
+                "6: Qual é a funcionalidade do método equals() em java?\n" +
+                Compara o conteúdo dos objetos
+                        "(a) Compara o conteúdo dos objetos\n" +
+                        "(b) Compara referência de objetos\n" +
+                        "(c) Compara os tipos dos objetos\n" +
+                        "(d) Compara uma cópia dd objeto\n" ,
+                "7: Qual é a palavra-chave usada para criar um novo objeto em Java?\n" +
+                        "(a) create\n" +
+                        "(b) class\n" +
+                        "(c) new\n" +
                         "(d) static\n" ,
-                "8: Qual é a sintaxe correta para criar um método em Java?\n" +
-                        "(a) tipoDeRetorno nomeDoMétodo()\n" +
-                        "(b) nomeDoMétodo tipoDeRetorno()\n" +
-                        "(c) nomeDoMétodo() tipoDeRetorno\n" +
-                        "(d) tipoDeRetorno() nomeDoMétodo\n" ,
-                "9: Qual é a palavra-chave usada para acessar o método ou membro de uma superclasse em Java?\n" +
-                        "(a) super\n" +
-                        "(b) this\n" +
-                        "(c) parent\n" +
-                        "(d) base\n" ,
+                "8: Qual pacote precisa ser importado para usar ArrayList em Java?\n" +
+                        "(a) java.ArrayList\n" +
+                        "(b) java.util.Collection\n" +
+                        "(c) java.util.List\n" +
+                        "(d) java.util.Scanner\n" ,
+                "9: Como você obtém o tamanho de um ArrayList em Java?\n" +
+                        "(a) List.size()\n" +
+                        "(b) List.Length\n" +
+                        "(c) List.count()\n" +
+                        "(d) List.capacity()\n" ,
                 "10: Qual é a palavra-chave usada para declarar uma interface em Java?\n" +
                         "(a) interface\n" +
                         "(b) abstract\n" +
@@ -99,13 +100,13 @@ public class LogicaQuiz {
             System.out.println("-------Gabarito-------\n");
             System.out.print("1 (b) New\n"+
                     "2 (c) //\n"+
-                    "3 (c) class NovaClasse extends ClasseExistente\n"+
-                    "4 (c) java.lang.Cloneable\n"+
+                    "3 (c) 14\n"+
+                    "4 (c) int[] array;\n"+
                     "5 (c) import\n" +
-                    "6 (a) throws\n" +
-                    "7 (c) final\n" +
-                    "8 (a) tipoDeRetorno nomeDoMétodo()\n" +
-                    "9 (a) super\n" +
+                    "6 (a) Compara o conteúdo dos objetos\n" +
+                    "7 (c) new\n" +
+                    "8 (a) java.ArrayList\n" +
+                    "9 (a) List.size()\n" +
                     "10 (a) interface\n" +
                     "11 (a) class\n" +
                     "12 (d) Não há uma palavra-chave específica para declarar uma variável de instância.\n"+
