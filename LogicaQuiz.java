@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class LogicaQuiz {
         // Variável para armazenar a pontuação do usuário
         int pontuacaoUsuario = 0;
@@ -75,10 +74,10 @@ public class LogicaQuiz {
                         "(c) put(), take(), head (), tail()\n" +
                         "(d) push (), pop (), peek (), isEmpty ()\n" ,
                 "14: Qual método da classe Arrays é usado para ordenar um array de inteiros em ordem crescente?\n" +
-                        "(a) Arrays.order (int[] a)\n" +
+                        "(a) Arrays.order(int[] a)\n" +
                         "(b) Arrays.sort(int[] a)\n" +
                         "(c) Arrays.arrange(int[] a)\n" +
-                        "(d) Arrays. sequence (int[] a)\n" ,
+                        "(d) Arrays.sequence (int[] a)\n" ,
                 "15: Qual método da classe String é usado para converter todos os caracteres de uma string para maiúsculas?\n" +
                         "(a) toUpperCase ()\n" +
                         "(b) toCaps ()\n" +
