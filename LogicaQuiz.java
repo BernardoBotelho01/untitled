@@ -54,36 +54,36 @@ public class LogicaQuiz {
                         "(b) List.Length\n" +
                         "(c) List.count()\n" +
                         "(d) List.capacity()\n" ,
-                "10: Qual é a palavra-chave usada para declarar uma interface em Java?\n" +
-                        "(a) interface\n" +
-                        "(b) abstract\n" +
-                        "(c) implements\n" +
-                        "(d) extends\n" ,
-                "11: Qual é a palavra-chave usada para declarar uma classe em Java?\n" +
-                        "(a) class\n" +
-                        "(b) object\n" +
-                        "(c) type\n" +
-                        "(d) struct\n" ,
-                "12: Qual é a palavra-chave usada para declarar uma variável de instância em Java?\n" +
-                        "(a) var\n" +
-                        "(b) let\n" +
-                        "(c) instance\n" +
-                        "(d) Não há uma palavra-chave específica para declarar uma variável de instância\n" ,
-                "13: Qual é a palavra-chave usada para declarar um método em Java?\n" +
-                        "(a) function\n" +
-                        "(b) method\n" +
-                        "(c) procedure\n" +
-                        "(d) Não há uma palavra-chave específica para declarar um método.\n" ,
-                "14: Qual é a palavra-chave usada para declarar um bloco de código que será sempre executado, independentemente de uma exceção ser lançada e capturada?\n" +
-                        "(a) always\n" +
-                        "(b) finally\n" +
-                        "(c) end\n" +
-                        "(d) last\n" ,
-                "15: Qual é a palavra-chave usada para declarar um bloco de código que pode lançar uma exceção?\n" +
-                        "(a) try\n" +
-                        "(b) catch\n" +
-                        "(c) throw\n" +
-                        "(d) erro\n"};
+                "10: O que é uma fila (queue) em Java e como ela funciona?\n" +
+                        "(a) Uma estrutura de dados que segue a ordem FIFO (First In, First Out)\n" +
+                        "(b) Uma estrutura de dados que segue a ordem LIFO (Last In, First Out)\n" +
+                        "(c) Uma estrutura de dados que armazena elementos em uma árvore binária\n" +
+                        "(d) Uma estrutura de dados que armazena elementos em uma lista ligada dupla\n" ,
+                "11: Como você pode criar uma fila em Java usando a classe LinkedList?\n" +
+                        "(a) Queue <Integer> queue = new LinkedList<>();\n" +
+                        "(b) Queue<Integer> queue = new ArrayList<>();\n" +
+                        "(c) Queue <Integer> queue = new HashSet<>();\n" +
+                        "(d) Queue<Integer> queue = new Vector<> ();\n" ,
+                "12: O que é uma pilha (stack) em Java e como ela funciona?\n" +
+                        "(a) Uma estrutura de dados que segue a ordem FIFO (First In, First Out)\n" +
+                        "(b) Uma estrutura de dados que armazena elementos em uma árvore binária\n" +
+                        "(c) Uma estrutura de dados que armazena elementos em uma lista ligada dupla\n" +
+                        "(d) Uma estrutura de dados que segue a ordem LIFO (Last In, First Out)\n" ,
+                "13: Quais são os métodos principais da classe Stack e o que eles fazem?\n" +
+                        "(a) enqueue(), dequeue (), peek (), isEmpty ()\n" +
+                        "(b) insert(), delete(), top(),size()\n" +
+                        "(c) put(), take(), head (), tail()\n" +
+                        "(d) push (), pop (), peek (), isEmpty ()\n" ,
+                "14: Qual método da classe Arrays é usado para ordenar um array de inteiros em ordem crescente?\n" +
+                        "(a) Arrays.order (int[] a)\n" +
+                        "(b) Arrays.sort(int[] a)\n" +
+                        "(c) Arrays.arrange(int[] a)\n" +
+                        "(d) Arrays. sequence (int[] a)\n" ,
+                "15: Qual método da classe String é usado para converter todos os caracteres de uma string para maiúsculas?\n" +
+                        "(a) toUpperCase ()\n" +
+                        "(b) toCaps ()\n" +
+                        "(c) toUpper ()\n" +
+                        "(d) toCapital()\n"};
         // Vetor de char para armazenar as respostas corretas para as perguntas do quiz
         char[] respostasCorretas = {'b', 'c', 'c','c', 'c', 'a', 'c', 'a', 'a', 'a', 'a', 'd', 'd', 'b', 'a'};
 
@@ -106,12 +106,12 @@ public class LogicaQuiz {
                     "7 (c) new\n" +
                     "8 (a) java.ArrayList\n" +
                     "9 (a) List.size()\n" +
-                    "10 (a) interface\n" +
-                    "11 (a) class\n" +
-                    "12 (d) Não há uma palavra-chave específica para declarar uma variável de instância.\n"+
-                    "13 (d) Não há uma palavra-chave específica para declarar um método.\n"+
-                    "14 (b) finally\n" +
-                    "15 (a) try");
+                    "10 (a) Uma estrutura de dados que segue a ordem FIFO (First In, First Out)\n" +
+                    "11 (a) Queue<Integer>queue = new LinkedList<>();\n" +
+                    "12 (d) Uma estrutura de dados que segue a ordem LIFO (Last In, First Out)\n"+
+                    "13 (d) push (), pop (), peek (), isEmpty\n"+
+                    "14 (b) Arrays.sort(int[] a)\n" +
+                    "15 (a) toUpperCase ()");
         }
         public void fazerPergunta(String pergunta, char respostaCorreta) {
             // Impressão da pergunta
