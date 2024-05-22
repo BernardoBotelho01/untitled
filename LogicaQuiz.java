@@ -35,7 +35,6 @@ public class LogicaQuiz {
                         "(c) import\n" +
                         "(d) use\n",
                 "6: Qual é a funcionalidade do método equals() em java?\n" +
-                Compara o conteúdo dos objetos
                         "(a) Compara o conteúdo dos objetos\n" +
                         "(b) Compara referência de objetos\n" +
                         "(c) Compara os tipos dos objetos\n" +
